@@ -12,8 +12,6 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-color:burlywood;
-    border: 2px solid; 
 }
 
 header input[type=text] {
@@ -33,9 +31,10 @@ li {
 }
 
 h1 {
-    padding-left: 1cm;
+    padding-left: 2cm;
     font-family: Oooh Baby;
     font-size: 1.5cm;
+    letter-spacing: 2px;
 }
 
 .navbar {
@@ -55,7 +54,7 @@ nav a {
 
 figcaption {
     font-family: tahoma;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -70,7 +69,6 @@ figcaption {
     height: 90%;
     padding-top: 0.5cm;
     padding-bottom: 0.5cm;
-    border: 2px solid;
     }
     
 .foodPics img {
@@ -154,3 +152,26 @@ footer {
     color: azure;
 }
 
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: center;
+}
+
+.icons img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.copyright {
+    display: flex;
+    padding-top: 20px;
+}
+
+.copyright p {
+    margin: auto;
+    font-size: 14px;
+    font-family: calibri;
+    color: white;
+}
