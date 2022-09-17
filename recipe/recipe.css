@@ -35,14 +35,14 @@ h1 {
 ul {
     list-style-type: none;
     font-family: tahoma;
-    font-size: 0.5cm;
+    font-size: 0.6cm;
     padding-right: 40px;
     padding-top: 5px;
 }
 
 ol {
     font-family: tahoma;
-    font-size: 0.5cm;
+    font-size: 0.6cm;
     padding-left: 2cm;
     padding-top: 5px;
 }
@@ -59,8 +59,9 @@ h4 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 20%;
-    height: 50%;
+    padding-bottom: 0.5cm;
+    width: 23%;
+    height: 55%;
     background: rgba( 255, 255, 255, 0.5 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
@@ -68,22 +69,22 @@ h4 {
     border-radius: 20px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     position: absolute;
-    top: 35%;
-    left: 15%;
+    top: 37%;
+    left: 10%;
 }
 
 .ingredients h3 {
-    font-size: 1cm;
+    font-size: 1.2cm;
     font-family: Oooh Baby;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 
 .makingup {
     display: flex;
     flex-direction: column;
-    width: 45%;
-    height: 35%;
+    width: 50%;
+    height: 44%;
     background: rgba( 255, 255, 255, 0.5 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
@@ -92,7 +93,7 @@ h4 {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     position: absolute;    
     left: 45%;
-    top: 42%; 
+    top: 50%; 
 }
 
 
@@ -102,5 +103,28 @@ button {
     padding: 10px;
     position: absolute;
     top: 8%;
-    left: 87%;
+    left: 85%;
+    background: #f5ffba;
+    background-image: -webkit-linear-gradient(top, #f5ffba, #8a7800);
+    background-image: -moz-linear-gradient(top, #f5ffba, #8a7800);
+    background-image: -ms-linear-gradient(top, #f5ffba, #8a7800);
+    background-image: -o-linear-gradient(top, #f5ffba, #8a7800);
+    background-image: linear-gradient(to bottom, #f5ffba, #8a7800);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 5px #000000;
+    -moz-box-shadow: 0px 1px 5px #000000;
+    box-shadow: 0px 1px 5px #000000;
+    font-family: Calibri;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 4px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
 }
