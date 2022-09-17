@@ -1,0 +1,44 @@
+/*for Tablets , tried it but it wont work*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    header {width: 100%;height: 2.8cm;}
+    
+    ul {padding-right: 15px;}
+    
+    h1 {padding-left: 0.5cm;font-size: 1cm;letter-spacing: 1px;}
+
+    nav a {font-size: 0.9cm;}
+
+    .foodPics {display: grid;grid-template-columns: repeat(2, 8fr);grid-template-rows: repeat(5, 1fr);grid-column-gap: 1px;grid-row-gap: 1px;width: 100%;height: 100%;}
+
+    .burger {grid-area: 1 / 1 / 2 / 2;}
+
+    .pizza {grid-area: 1 / 2 / 2 / 3;}
+
+    .veggie {grid-area: 2 / 1 / 3 / 2;}
+
+    .soup1 {grid-area: 2 / 2 / 3 / 3;}
+
+    .soup2 {grid-area: 3 / 1 / 4 / 2;}
+
+    .soup3 {grid-area: 3 / 2 / 4 / 3;}
+
+    .cake {grid-area: 4 / 1 / 5 / 2;}
+
+    .brownie {grid-area: 4 / 2 / 5 / 3;}
+
+    .muffins {grid-area: 5 / 1 / 6 / 2;}
+
+    footer {height: 2.9cm;align-items: center;}
+             
+    .info a {font-size: 0.6cm;}
+                 
+    .icons {padding: 3px;}
+                 
+    .icons img {padding-left: 9px;padding-right: 9px;}
+                 
+    .copyright {padding-top: 15px;}
+                 
+    .copyright p {font-size: 13px;padding-bottom: 9px;}
+} 
